@@ -1,0 +1,451 @@
+
+.work{
+    background-color: #F1F1F3;
+}
+
+.Banner {}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    /* width: 1500px;
+    height: 100px; */
+    padding-top: 30px;
+}
+
+.sign {
+    width: 116px;
+    height: 52px;
+    color: #006A50;
+    background-color: white;
+
+}
+
+.banner-des {
+    width: 1000px;
+    height: 560px;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    width: 270px;
+    height: 56px;
+    background-color: #34C759;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+
+
+}
+
+.banner-tile {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.banner-subtitle {
+    margin-left: 30px;
+    color: #BEBEBE;
+    font-size: 24px;
+}
+
+.banner-des-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.pillar {
+    width: 1000px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #F1F1F3;
+
+}
+
+.pillars {
+    display: flex;
+}
+
+.inno,
+.sust,
+.inf,
+.emp {
+    width: 220px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.future {
+    background-color: #F1F1F3;
+    width: 1000px;
+    height: 410px;
+    margin: 0 auto;
+    
+
+}
+
+.future-box {
+    display: flex;
+    
+}
+
+.DT {
+    background-color: #CACACA;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.GE {
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    border-radius: 5px;
+   
+}
+
+.MI {
+    background-color: #F7EBCF;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.future-des {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.DT-btn {
+    background-color: #5490F5;
+
+}
+
+.GE-btn {
+    background-color: #09A15C;
+   
+}
+
+.MI-btn {
+    background-color: #FFC239;
+    
+}
+
+.future-des-2{
+     position: relative;
+     background-color:#FFFFFF;
+     margin-top: 32px;
+
+}
+.future-des-2-sign{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    width: 50px;
+    opacity: 0.3;
+   
+}
+.future-des-2-des{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.GE-btn{
+    display: block;
+   margin: 0 auto;
+}
+.opinion {
+  width: 69%;
+  margin: 80px auto;
+  padding-top: 200px;
+ 
+
+ 
+}
+
+.opinion-head {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.questions {
+  background: white;
+  padding: 26px;
+  border-radius: 14px;
+}
+
+.question-head {
+  display: grid;
+  grid-template-columns: 1fr 170px;
+  background: #cfe8db;
+  border: 1px solid #b8d6c8;
+}
+
+.question-head h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+}
+
+.question-head h1:last-child {
+  text-align: center;
+}
+
+.question-row {
+  display: grid;
+  grid-template-columns: 1fr 170px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.question-row p {
+  margin: 0;
+  padding: 28px 20px;
+  font-weight: bold;
+}
+
+.question-row div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ddd;
+}
+
+.question-row select {
+  padding: 10px 14px;
+  background: #dff2e9;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.news{
+    width: 69%;
+  margin: 80px auto;
+  
+  width: 1000px;
+}
+.news-head{
+    font-weight: bold;
+    font-size: 40px;
+}
+.news-des{
+    font-size: 16px;
+    color: #B5B5B5;
+}
+.satelite{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 350px;
+}
+.satelite-exp{
+    margin-left: 32px;
+}
+.sat-img{
+    width: 350px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+.date{
+    color: #BEBEBE;
+}
+.sat-des{
+    color:black;
+    font-size: 16px;
+}
+
+
+.news-btn{
+background-color: #006A50;
+color: white;
+width: 90px;
+height: 30px;
+border-radius: 5px;
+}
+.donation{
+   text-align: center;
+   margin: 0 auto;
+   
+}
+.d-head{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+      margin-bottom: 20px; 
+}
+.d-des{
+ font-size: 16px;
+ color:#B3B3B3;
+   margin: 0 auto 40px;
+    line-height: 26px;
+    
+}
+.d-box{
+    
+   display: flex;
+   justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+   
+
+} 
+.tk1 , .tk5 , .tk10{
+    border: 2px solid #FFFFFF;
+    background-color: #B3B3B3;
+    width: 180px;
+    height: 90px;
+    margin-left: 15px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+     font-size: 35px;
+    font-weight: bold;
+   
+
+}
+.tk2{
+background-color: #C6E4D6;
+margin-left: 10px;
+  width: 180px;
+    height: 90px;
+    border-radius: 20px;
+        text-align: center;
+        padding-top: 40px;
+
+
+}.d-subtitle{
+
+  border-bottom: 1px solid #B3B3B3;
+  
+  padding-bottom: 5px;
+width: 1000px;
+color: #B3B3B3;
+margin: 0 auto;
+   border-bottom: 1px solid #B3B3B3;
+   padding-bottom: 10px;
+}
+.d-btn{
+    margin-top: 25px;
+    background-color: #006A50;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sub-head{
+     color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+      margin-bottom: 20px; 
+}
+.sub{
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.subscribe-box{
+    width: 550px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+    margin-left: 200px;
+}
+
+.subscribe-box input{
+    border: none;
+    outline: none;
+
+    width: 100%;
+    padding-left: 30px;
+
+    font-size: 16px;
+}
+
+.subscribe-box button{
+    width: 180px;
+    height: 100%;
+
+    border: none;
+    background-color: #006A50;
+    color: white;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    border-radius: 50px;
+}
+.p-msg-des{
+    margin-bottom: 48px;
+}
+
+.sub-title{
+    font-size: 16px;
+    color: #3C916A;
+}
+.subsription{
+    background-color: #C6E4D6;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+    
+    
+}
+.sub-exp{
+    padding-top: 60px;
+}
+
+.bd{
+    background-color: white;
+    width: 1600px;
+    height: 226px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.bd-pic{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    gap: 13px;
+}
+.bd-exp{
+    margin-left: 600px;
+   padding-top: 60px;
+}
+.bd-pic{
+     margin-left: 55px;
+}
